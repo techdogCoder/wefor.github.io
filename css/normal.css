@@ -1,0 +1,95 @@
+.container-list-main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.owl-carousel-slider{
+    display: none;
+}
+@media (min-width: 1440px) {
+    .container-list-main{
+        max-width: 1360px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1100px) {
+    .container-list-main{
+        display: none;
+    }
+    .owl-carousel-slider{
+        display: block;
+    }     
+}
+
+.container-ul-list{
+  width: 230px;
+  position: absolute;
+}
+.container-ul-list ul, .owl-carousel-slider ul ,.container-ul-list li, .owl-carousel-slider li{
+ list-style: none;
+}
+.container-ul-list li,.owl-carousel-slider li{
+    position: relative;
+    padding-left: 15px;
+}
+.container-ul-list li::before,.owl-carousel-slider li::before{
+    content: '·';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.container-ul-list h3{
+    padding-left: 40px;
+}
+.container-ul-list.consult{
+    left: 3%;
+    top: 30%;
+}
+.container-ul-list.consult h3, .owl-carousel-slider .consult h3{
+   background: url(../img/pop/consult-icon.png) no-repeat left top;
+   background-size: 35px 35px;
+}
+.container-ul-list.implement{
+    left: 22%;
+    top: 50%;
+}
+.container-ul-list.implement h3, .owl-carousel-slider .implement h3{
+   background: url(../img/pop/implement-icon.png) no-repeat left top;
+   background-size: 35px 35px;
+}
+.container-ul-list.operation{
+    left: 44%;
+    top: 30%;
+}
+.container-ul-list.operation h3, .owl-carousel-slider .operation h3{
+   background: url(../img/pop/statics-icon.png) no-repeat left top;
+   background-size: 35px 35px;
+}
+.container-ul-list.brand{
+    left: 62%;
+    top: 50%;
+}
+.container-ul-list.brand h3, .owl-carousel-slider .brand h3{
+   background: url(../img/pop/brand-icon.png) no-repeat left top;
+   background-size: 35px 35px;
+}
+.container-ul-list.data{
+    left:82%;
+    top: 30%;
+}
+.container-ul-list.data h3, .owl-carousel-slider .data h3{
+   background: url(../img/pop/data-icon.png) no-repeat left top;
+   background-size: 35px 35px;
+}
+.container-ul-list li{
+  color:#fff;
+}
+.owl-carousel-slider h3{
+    padding-left: 40px;
+    line-height: 35px;
+    height: 48px;
+}
+.owl-carousel-slider .feature__base{
+    height: 403px;
+}
